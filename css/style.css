@@ -51,9 +51,32 @@ header h1{
     padding:20px;
     border-radius: 2px;
 }
-.boas-vindas p{
-    font-size: 1.2em;
+/* Pagina Sobre */
 
+.sobre{
+    display:block;
+    margin: auto;
+    margin-top:25px;
+    width:60%;
+    
+    background-color: #1377b6;
+    padding:20px;
+    border-radius: 2px;
+    color: #F1F3F5;
+}
+.sobre h1{
+    text-align: center;
+}
+
+
+/*------------------------------------------*/
+
+.boas-vindas p{
+    font-size: 1.1em;
+
+}
+.boas-vindas h1{
+    text-align: center;
 }
 .texto{
     margin-top: 25px;
@@ -104,6 +127,7 @@ header h1{
     align-items: center;
     padding:8px;
 }
+/* Style pagina de pacotes */
 .textos-pacotes{
         display:block;
         margin: auto;
@@ -131,3 +155,4 @@ header h1{
     width:25%;
     margin-bottom:15px;
 }
+/*------------------------------------------------*/
