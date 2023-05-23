@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #F1F3F5;
+    background-color: #F1F3F5; 
+    padding: 0px;
+    margin: 0px;
 }
 header{
     width:100%;
@@ -13,6 +15,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
 header h1{
     font-family: 'Bebas Neue';
@@ -56,16 +59,19 @@ header h1{
 .sobre{
     display:block;
     margin: auto;
-    margin-top:25px;
+    margin-top: 60px;
     width:60%;
-    
     background-color: #1377b6;
-    padding:20px;
+    padding: 65px;
     border-radius: 2px;
     color: #F1F3F5;
+    margin-bottom: 16em;
 }
 .sobre h1{
     text-align: center;
+}
+.sobre p{
+    font-size: 20px;
 }
 
 
@@ -95,6 +101,8 @@ header h1{
     display: flex;
     justify-content: space-around;
     width:100%;
+   
+   
 }
 .footer h3{
     font-family: 'Montserrat';
@@ -155,4 +163,48 @@ header h1{
     width:25%;
     margin-bottom:15px;
 }
+
+.list-group list-group-flush{
+    background-color: #0367A6;
+}
+
+
+/*------------------------------------------------*/
+
+/*    Curiosidades */
+
+
+.curiosidades{
+    margin: auto;
+    margin-top: 60px;
+    width:90%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 2.5% ;
+    padding-right: 2.5% ;
+    margin-bottom: 150px;
+    background-color: #D3D8E0; 
+    border-radius: 2px;
+    color: black;
+    font-size: 20px;
+    
+}
+.container_curiosidades{
+    display: flex;
+    
+}
+.texto_curiosidades h1,h2{
+    color: #1377b6 ;
+
+}
+
+
+
+
+.texto_curiosidades{
+    margin-left: 2%;
+}
+
+
+
 /*------------------------------------------------*/
