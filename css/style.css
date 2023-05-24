@@ -191,6 +191,8 @@ header h1{
 }
 .container_curiosidades{
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
 }
 .texto_curiosidades h1,h2{
